@@ -16,6 +16,10 @@ const styles = theme => ({
         marginRight: 320,
       },
       
+      appBarMain: {
+          width: '100%',
+      },
+
       toolbar: theme.mixins.toolbar,
       content: {
         flexGrow: 1,

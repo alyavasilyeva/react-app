@@ -1,14 +1,18 @@
 import React from 'react';
 import { withStyles } from 'material-ui/styles';
 
-import AppHeader from './appHeader';
+import AppHeaderWide from './AppHeaderWide';
+import LogInForm from './WelcomeForm';
 
 const styles = theme => ({
  
 });
 
 const WelcomePage = ({ classes }) => (
-    <AppHeader/>
+    <div>
+        <AppHeaderWide/>
+        <LogInForm/>
+    </div>
 );
 
 export default withStyles(styles)(WelcomePage);
